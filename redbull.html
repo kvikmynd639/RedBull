@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../RedBull web/redbull.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section>
+        <div class="kirkos"></div>
+        <header>
+            <img src="red-bull-logo-2-1.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New Pair of Wings</a></li>
+                    <li><a href="#"> WinGo navigations</a></li>
+                    <li><a href="#">Merch</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="text">
+            <div class="box">
+                <h2> RedBull Gives You.... Wings</h2>
+                <p>
+                Red Bull (suom. punainen härkä) on itävaltalais-thaimaalainen energiajuoma. Juoman kehitti Dietrich Mateschitz thaimaalaisen Krating Daeng 
+                -juoman pohjalta. Vuonna 1984 hän valtuutti TC Pharmaceuticals
+                 -yhtiön valmistamaan sitä. TCP sai 51 prosenttia perustetusta Red Bull GmbH -yhtiöstä.
+                Juoma tuli markkinoille 1987[1] laajan mainoskampanjan tuella. 
+                </p>
+                <a href="#">Fly with RedBull</a>
+            </div>
+            <div class="slide-box">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="Red-Bull-Transparent.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="697-6976763_red-bull-tropical-edition.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="watermelon.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="frukt.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="social-media">
+            <li><a href="#"><img src="reddit.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="youtube.png"></a></li>
+        </ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>
